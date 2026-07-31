@@ -1,9 +1,26 @@
 aid: neumora
 name: Neumora
-description: 'Neumora is a company surfaced as a portfolio company of softbank-vision-fund and added to
-  the API Evangelist network as a stub for enrichment. Sector: health-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Neumora Therapeutics is a clinical-stage biopharmaceutical company pioneering a new era
+  of precision medicines to restore brain health and wellbeing. It develops therapeutics for brain
+  diseases and neuropsychiatric conditions, applying a precision-medicine approach to neuroscience drug
+  discovery and development. Neumora was surfaced into the API Evangelist network as a VC-portfolio lead
+  backed by SoftBank Vision Fund. As a therapeutics company it maintains a corporate and investor web
+  presence but exposes no public developer API, SDK, CLI, or documentation surface: probing its domain
+  for /.well-known/ discovery documents, an OpenAPI/Swagger spec, an llms.txt, and developer/docs paths
+  returned no machine-readable API surface as of this enrichment pass.'
 url: https://raw.githubusercontent.com/api-evangelist/neumora/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://neumoratx.com/wp-content/uploads/2023/05/GettyImages-170521026.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,13 +29,26 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Health Tech
+- Biotechnology
+- Pharmaceuticals
+- Neuroscience
+- Precision Medicine
+- Life Sciences
 apis: []
+common:
+- type: Website
+  url: https://neumoratx.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
